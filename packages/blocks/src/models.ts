@@ -14,6 +14,8 @@ import {
   type CodeBlockModel,
   CodeBlockSchema,
 } from './code-block/code-model.js';
+import type { ComponentsBlockModel } from './components-block/components-model.js';
+import { ComponentsBlockSchema } from './components-block/components-model.js';
 import type { DataViewBlockModel } from './data-view-block/data-view-model.js';
 import { DataViewBlockSchema } from './data-view-block/data-view-model.js';
 import type { DatabaseBlockModel } from './database-block/database-model.js';
@@ -46,6 +48,7 @@ export type {
   AttachmentBlockModel,
   BookmarkBlockModel,
   CodeBlockModel,
+  ComponentsBlockModel,
   DatabaseBlockModel,
   DataViewBlockModel,
   DividerBlockModel,
@@ -72,6 +75,7 @@ export const AffineSchemas: z.infer<typeof BlockSchema>[] = [
   FrameBlockSchema,
   DatabaseBlockSchema,
   SurfaceRefBlockSchema,
+  ComponentsBlockSchema,
 ];
 
 export const __unstableSchemas = [
@@ -100,6 +104,7 @@ export type BlockSchemas = {
   'affine:bookmark': BookmarkBlockModel;
   'affine:attachment': AttachmentBlockModel;
   'affine:surface-ref': SurfaceRefBlockModel;
+  'affine:components': ComponentsBlockModel;
 };
 
 export type Flavour = keyof BlockSchemas;

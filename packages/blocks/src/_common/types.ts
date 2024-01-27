@@ -86,9 +86,16 @@ export type KanbanViewSelection =
 export type KanbanViewSelectionWithType =
   WithKanbanViewType<KanbanViewSelection>;
 
+export type ShortTextViewSelection = {
+  viewId: string;
+  type: 'shortText';
+  isEditing: boolean;
+};
+
 export type DataViewSelection =
   | TableViewSelection
-  | KanbanViewSelectionWithType;
+  | KanbanViewSelectionWithType
+  | ShortTextViewSelection;
 export type GetDataViewSelection<
   K extends DataViewSelection['type'],
   T = DataViewSelection,
@@ -199,7 +206,8 @@ export type NoteChildrenFlavour =
   | 'affine:image'
   | 'affine:bookmark'
   | 'affine:attachment'
-  | 'affine:surface-ref';
+  | 'affine:surface-ref'
+  | 'affine:components';
 
 export type NoteTool = {
   type: 'affine:note';

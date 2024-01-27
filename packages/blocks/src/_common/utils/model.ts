@@ -7,6 +7,8 @@ import type {
   BookmarkBlockSchema,
   CodeBlockModel,
   CodeBlockSchema,
+  ComponentsBlockModel,
+  ComponentsBlockSchema,
   DatabaseBlockModel,
   DatabaseBlockSchema,
   DataViewBlockModel,
@@ -45,6 +47,7 @@ export type BlockModels = {
   'affine:bookmark': BookmarkBlockModel;
   'affine:attachment': AttachmentBlockModel;
   'affine:surface-ref': SurfaceRefBlockModel;
+  'affine:components': ComponentsBlockModel;
 };
 
 export type BlockSchemas = {
@@ -61,6 +64,7 @@ export type BlockSchemas = {
   'affine:data-view': typeof DataViewBlockSchema;
   'affine:bookmark': typeof BookmarkBlockSchema;
   'affine:attachment': typeof AttachmentBlockSchema;
+  'affine:components': typeof ComponentsBlockSchema;
 };
 
 export type BlockModelProps = {

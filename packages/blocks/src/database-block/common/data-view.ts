@@ -61,6 +61,7 @@ type CommonViewDataType = {
   id: string;
   name: string;
 };
+
 export type RealDataViewDataTypeMap = {
   [K in keyof DataViewDataTypeMap]: DataViewDataTypeMap[K] &
     CommonViewDataType & {
@@ -69,9 +70,11 @@ export type RealDataViewDataTypeMap = {
 };
 export type DefaultViewDataType = CommonViewDataType & { mode: string };
 type FallBack<T> = [T] extends [never] ? DefaultViewDataType : T;
+
 export type DataViewDataType = FallBack<
   RealDataViewDataTypeMap[keyof RealDataViewDataTypeMap]
 >;
+
 export type DataViewTypes = DataViewDataType['mode'];
 
 export interface DataViewConfig<

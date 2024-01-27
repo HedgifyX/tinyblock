@@ -7,6 +7,8 @@ import { AttachmentService } from '../attachment-block/attachment-service.js';
 import { BookmarkService } from '../bookmark-block/bookmark-service.js';
 import { BookmarkBlockSchema } from '../bookmark-block/index.js';
 import { CodeBlockSchema } from '../code-block/code-model.js';
+import { ComponentsBlockSchema } from '../components-block/components-model.js';
+import { ComponentsService } from '../components-block/components-service.js';
 import { DataViewBlockSchema } from '../data-view-block/index.js';
 import { DatabaseBlockSchema } from '../database-block/database-model.js';
 import { DatabaseService } from '../database-block/database-service.js';
@@ -204,6 +206,13 @@ const CommonFirstPartyBlockSpecs: BlockSpec[] = [
   EmbedGithubBlockSpec,
   EmbedHtmlBlockSpec,
   EmbedLinkedDocBlockSpec,
+  {
+    schema: ComponentsBlockSchema,
+    service: ComponentsService,
+    view: {
+      component: literal`affine-components`,
+    },
+  },
 ];
 
 export const DocEditorBlockSpecs: BlockSpec[] = [

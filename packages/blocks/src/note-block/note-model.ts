@@ -41,6 +41,7 @@ export const NoteBlockSchema = defineBlockSchema({
       'affine:attachment',
       'affine:surface-ref',
       'affine:embed-*',
+      'affine:components',
     ],
   },
   toModel: () => {

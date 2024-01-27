@@ -21,6 +21,7 @@ import {
   ImageIcon20,
   NewPageIcon,
   NowIcon,
+  ShortTextIcon20,
   TodayIcon,
   TomorrowIcon,
   YesterdayIcon,
@@ -36,6 +37,7 @@ import {
 import { clearMarksOnDiscontinuousInput } from '../../../_common/utils/inline-editor.js';
 import { AttachmentService } from '../../../attachment-block/attachment-service.js';
 import { addSiblingAttachmentBlock } from '../../../attachment-block/utils.js';
+import type { ComponentsService } from '../../../components-block/components-service.js';
 import type { DatabaseService } from '../../../database-block/database-service.js';
 import { FigmaIcon } from '../../../embed-figma-block/styles.js';
 import { GithubIcon } from '../../../embed-github-block/styles.js';
@@ -700,6 +702,43 @@ export const menuGroups: SlashMenuOptions['menus'] = [
         action: ({ pageElement, model }) => {
           pageElement.page.deleteBlock(model);
         },
+      },
+    ],
+  },
+  {
+    name: 'Components',
+    items: [
+      {
+        name: 'Short Text',
+        icon: ShortTextIcon20,
+        showWhen: model => {
+          if (!model.page.schema.flavourSchemaMap.has('affine:components')) {
+            return false;
+          }
+          return true;
+        },
+        action: withRemoveEmptyLine(async ({ pageElement, model }) => {
+          const parent = pageElement.page.getParent(model);
+          assertExists(parent);
+          const index = parent.children.indexOf(model);
+
+          const id = pageElement.page.addBlock(
+            'affine:components',
+            {},
+            pageElement.page.getParent(model),
+            index + 1
+          );
+          const service = pageElement.std.spec.getService(
+            'affine:components'
+          ) as ComponentsService;
+          service.initComponentsBlock(
+            pageElement.page,
+            model,
+            id,
+            'shortText',
+            false
+          );
+        }),
       },
     ],
   },

@@ -9,6 +9,7 @@ import './divider-block/index.js';
 import './code-block/affine-code-line.js';
 import './image-block/index.js';
 import './database-block/index.js';
+import './components-block/index.js';
 import './surface-ref-block/index.js';
 
 import { mindMap } from './_common/mind-map/index.js';
@@ -68,6 +69,7 @@ export * from './_specs/_specs.js';
 export * from './attachment-block/index.js';
 export * from './bookmark-block/index.js';
 export * from './code-block/index.js';
+export * from './components-block/index.js';
 export * from './data-view-block/index.js';
 export * from './database-block/index.js';
 export * from './divider-block/index.js';

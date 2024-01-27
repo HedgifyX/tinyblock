@@ -1414,3 +1414,23 @@ export const EmbedCardDarkCubeIcon = html`
     <rect x="4" y="20" width="30" height="3" rx="1.5" fill="#4A4A4A" />
   </svg>
 `;
+
+const ShortTextIconSVG = svg`
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+    <path
+      fill="currentColor"
+      fill-rule="evenodd"
+      d="m8.45 4.78 3 6a.51.51 0 0 1-.23.67.522.522 0 0 1-.67-.22l-.91-1.82H6.35l-.9 1.81a.506.506 0 0 1-.68.22.5.5 0 0 1-.22-.67l3-6c.169-.319.734-.303.9.01ZM8 6.12 6.74 8.63h2.52L8 6.12Z"
+      clip-rule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      fill-rule="evenodd"
+      d="M4 1h8c1.65 0 3 1.35 3 3v8c0 1.65-1.35 3-3 3H4c-1.65 0-3-1.35-3-3V4c0-1.65 1.35-3 3-3Zm10 3c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V4Z"
+      clip-rule="evenodd"
+    />
+  </svg>
+`;
+
+export const ShortTextIcon20 = icon(ShortTextIconSVG, 20);
+export const ShortTextIcon = icon(ShortTextIconSVG);

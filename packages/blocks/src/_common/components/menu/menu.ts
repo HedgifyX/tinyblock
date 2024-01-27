@@ -172,6 +172,7 @@ export class MenuComponent<_T> extends WithDisposable(ShadowlessElement) {
       display: flex;
       gap: 4px;
       border-radius: 4px;
+      font-family: var(--affine-font-family);
     }
 
     .affine-menu-action svg {
@@ -194,7 +195,7 @@ export class MenuComponent<_T> extends WithDisposable(ShadowlessElement) {
       justify-content: space-between;
       display: flex;
       align-items: center;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 22px;
       flex: 1;
       gap: 8px;
