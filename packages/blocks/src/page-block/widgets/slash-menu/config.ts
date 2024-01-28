@@ -8,6 +8,7 @@ import { textFormatConfigs } from '../../../_common/configs/text-format/config.j
 import {
   ArrowDownBigIcon,
   ArrowUpBigIcon,
+  AssigneeSelectIcon20,
   AttachmentIcon,
   BookmarkIcon,
   CopyIcon,
@@ -801,6 +802,38 @@ export const menuGroups: SlashMenuOptions['menus'] = [
             model,
             id,
             'attachment',
+            false
+          );
+        }),
+      },
+      {
+        name: 'Assignee select',
+        icon: AssigneeSelectIcon20,
+        showWhen: model => {
+          if (!model.page.schema.flavourSchemaMap.has('affine:components')) {
+            return false;
+          }
+          return true;
+        },
+        action: withRemoveEmptyLine(async ({ pageElement, model }) => {
+          const parent = pageElement.page.getParent(model);
+          assertExists(parent);
+          const index = parent.children.indexOf(model);
+
+          const id = pageElement.page.addBlock(
+            'affine:components',
+            {},
+            pageElement.page.getParent(model),
+            index + 1
+          );
+          const service = pageElement.std.spec.getService(
+            'affine:components'
+          ) as ComponentsService;
+          service.initComponentsBlock(
+            pageElement.page,
+            model,
+            id,
+            'assigneeSelect',
             false
           );
         }),

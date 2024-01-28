@@ -104,12 +104,19 @@ export type AttachmentViewSelection = {
   isEditing: boolean;
 };
 
+export type AssigneeSelectViewSelection = {
+  viewId: string;
+  type: 'assigneeSelect';
+  isEditing: boolean;
+};
+
 export type DataViewSelection =
   | TableViewSelection
   | KanbanViewSelectionWithType
   | ShortTextViewSelection
   | LongTextViewSelection
-  | AttachmentViewSelection;
+  | AttachmentViewSelection
+  | AssigneeSelectViewSelection;
 export type GetDataViewSelection<
   K extends DataViewSelection['type'],
   T = DataViewSelection,

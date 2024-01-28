@@ -1445,3 +1445,14 @@ const LongTextIconSVG = svg`
 
 export const LongTextIcon20 = icon(LongTextIconSVG, 20);
 export const LongTextIcon = icon(LongTextIconSVG);
+
+const AssigneeSelectIconSVG = svg`
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+    <path 
+      fill="currentColor" 
+      d="M8 8.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm0-7a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm5.836 11.569c-.946-1.98-2.938-3.568-5.834-3.569H8c-2.898 0-4.89 1.588-5.836 3.569-.591 1.236.507 2.431 1.852 2.431h7.967c1.346 0 2.444-1.195 1.853-2.431Zm-.976 1.048c-.171.209-.491.383-.877.383H4.016c-.386 0-.706-.174-.877-.383a.533.533 0 0 1-.074-.617c.794-1.662 2.452-3 4.934-3H8c2.48.001 4.138 1.339 4.932 3a.531.531 0 0 1-.073.617Z" clip-rule="evenodd">
+    </path>
+  </svg>`;
+
+export const AssigneeSelectIcon20 = icon(AssigneeSelectIconSVG, 20);
+export const AssigneeSelectIcon = icon(AssigneeSelectIconSVG);

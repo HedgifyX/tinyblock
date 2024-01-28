@@ -5,6 +5,8 @@ import './longText/define.js';
 import './longText/renderer.js';
 import './attachment/define.js';
 import './attachment/renderer.js';
+import './assigneeSelect/define.js';
+import './assigneeSelect/renderer.js';
 
 import type { BlockStdScope } from '@blocksuite/block-std';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
@@ -20,6 +22,7 @@ import type {
   DataViewSelection,
   DataViewSelectionState,
 } from '../_common/utils/index.js';
+import { DataViewAssigneeSelectManager } from './assigneeSelect/assigneeSelect-view-manager.js';
 import { DataViewAttachmentManager } from './attachment/attachment-view-manager.js';
 import type { BaseDataViewForComponents } from './common/base-data-view.js';
 import { dataViewCommonStyle } from './common/css-variable.js';
@@ -57,6 +60,7 @@ const ViewManagerMapForComponents: Record<
   shortText: DataViewShortTextManager,
   longText: DataViewLongTextManager,
   attachment: DataViewAttachmentManager,
+  assigneeSelect: DataViewAssigneeSelectManager,
 };
 
 export type DataViewNativeConfigForComponents = {
