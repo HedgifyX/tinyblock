@@ -296,7 +296,7 @@ export class ComponentsBlockComponent extends BlockElement<
       viewMethods: DataViewExposeForComponents;
     }) => {
       return html`
-        <div style="margin-bottom: 16px;display:flex;flex-direction: column">
+        <div style="margin-bottom: 8px;display:flex;flex-direction: column">
           <div style="display:flex;gap:8px;padding: 0 6px;margin-bottom: 8px;">
             ${this.renderTitle(viewMethods)} ${this.renderComponentsOps()}
             ${this.renderReference()}

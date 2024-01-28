@@ -98,11 +98,18 @@ export type LongTextViewSelection = {
   isEditing: boolean;
 };
 
+export type AttachmentViewSelection = {
+  viewId: string;
+  type: 'attachment';
+  isEditing: boolean;
+};
+
 export type DataViewSelection =
   | TableViewSelection
   | KanbanViewSelectionWithType
   | ShortTextViewSelection
-  | LongTextViewSelection;
+  | LongTextViewSelection
+  | AttachmentViewSelection;
 export type GetDataViewSelection<
   K extends DataViewSelection['type'],
   T = DataViewSelection,

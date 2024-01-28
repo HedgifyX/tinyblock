@@ -3,6 +3,8 @@ import './shortText/define.js';
 import './shortText/renderer.js';
 import './longText/define.js';
 import './longText/renderer.js';
+import './attachment/define.js';
+import './attachment/renderer.js';
 
 import type { BlockStdScope } from '@blocksuite/block-std';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
@@ -18,6 +20,7 @@ import type {
   DataViewSelection,
   DataViewSelectionState,
 } from '../_common/utils/index.js';
+import { DataViewAttachmentManager } from './attachment/attachment-view-manager.js';
 import type { BaseDataViewForComponents } from './common/base-data-view.js';
 import { dataViewCommonStyle } from './common/css-variable.js';
 import {
@@ -53,6 +56,7 @@ const ViewManagerMapForComponents: Record<
 > = {
   shortText: DataViewShortTextManager,
   longText: DataViewLongTextManager,
+  attachment: DataViewAttachmentManager,
 };
 
 export type DataViewNativeConfigForComponents = {
