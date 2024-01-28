@@ -92,10 +92,17 @@ export type ShortTextViewSelection = {
   isEditing: boolean;
 };
 
+export type LongTextViewSelection = {
+  viewId: string;
+  type: 'longText';
+  isEditing: boolean;
+};
+
 export type DataViewSelection =
   | TableViewSelection
   | KanbanViewSelectionWithType
-  | ShortTextViewSelection;
+  | ShortTextViewSelection
+  | LongTextViewSelection;
 export type GetDataViewSelection<
   K extends DataViewSelection['type'],
   T = DataViewSelection,

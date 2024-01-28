@@ -1434,3 +1434,14 @@ const ShortTextIconSVG = svg`
 
 export const ShortTextIcon20 = icon(ShortTextIconSVG, 20);
 export const ShortTextIcon = icon(ShortTextIconSVG);
+
+const LongTextIconSVG = svg`
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
+    <path 
+      fill="currentColor" 
+      d="M3 2.5H2c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h1c.28 0 .5.22.5.5s-.22.5-.5.5Zm11 0H5c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h9c.28 0 .5.22.5.5s-.22.5-.5.5Zm-12 3h12c.28 0 .5-.22.5-.5s-.22-.5-.5-.5H2c-.28 0-.5.22-.5.5s.22.5.5.5Zm12 3H2c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h12c.28 0 .5.22.5.5s-.22.5-.5.5Zm-12 3h12c.28 0 .5-.22.5-.5s-.22-.5-.5-.5H2c-.28 0-.5.22-.5.5s.22.5.5.5Zm12 3h-1c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h1c.28 0 .5.22.5.5s-.22.5-.5.5Zm-12 0h9c.28 0 .5-.22.5-.5s-.22-.5-.5-.5H2c-.28 0-.5.22-.5.5s.22.5.5.5Z">
+    </path>
+  </svg>`;
+
+export const LongTextIcon20 = icon(LongTextIconSVG, 20);
+export const LongTextIcon = icon(LongTextIconSVG);

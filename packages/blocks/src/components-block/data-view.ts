@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import './shortText/define.js';
 import './shortText/renderer.js';
+import './longText/define.js';
+import './longText/renderer.js';
 
 import type { BlockStdScope } from '@blocksuite/block-std';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
@@ -30,6 +32,7 @@ import type {
   SingleViewSourceForComponents,
   ViewSourceForComponents,
 } from './common/view-source.js';
+import { DataViewLongTextManager } from './longText/longText-view-manager.js';
 import { DataViewShortTextManager } from './shortText/shortText-view-manager.js';
 
 type ViewPropsForComponents = {
@@ -49,6 +52,7 @@ const ViewManagerMapForComponents: Record<
   ) => DataViewManagerForComponents
 > = {
   shortText: DataViewShortTextManager,
+  longText: DataViewLongTextManager,
 };
 
 export type DataViewNativeConfigForComponents = {

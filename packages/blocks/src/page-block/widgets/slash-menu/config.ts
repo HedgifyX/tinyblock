@@ -19,6 +19,7 @@ import {
   FrameIcon,
   GroupingIcon,
   ImageIcon20,
+  LongTextIcon20,
   NewPageIcon,
   NowIcon,
   ShortTextIcon20,
@@ -736,6 +737,38 @@ export const menuGroups: SlashMenuOptions['menus'] = [
             model,
             id,
             'shortText',
+            false
+          );
+        }),
+      },
+      {
+        name: 'Long Text',
+        icon: LongTextIcon20,
+        showWhen: model => {
+          if (!model.page.schema.flavourSchemaMap.has('affine:components')) {
+            return false;
+          }
+          return true;
+        },
+        action: withRemoveEmptyLine(async ({ pageElement, model }) => {
+          const parent = pageElement.page.getParent(model);
+          assertExists(parent);
+          const index = parent.children.indexOf(model);
+
+          const id = pageElement.page.addBlock(
+            'affine:components',
+            {},
+            pageElement.page.getParent(model),
+            index + 1
+          );
+          const service = pageElement.std.spec.getService(
+            'affine:components'
+          ) as ComponentsService;
+          service.initComponentsBlock(
+            pageElement.page,
+            model,
+            id,
+            'longText',
             false
           );
         }),
