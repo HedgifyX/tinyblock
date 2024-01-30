@@ -18,10 +18,6 @@ export class DataViewShortText extends BaseDataViewForComponents<
 > {
   static override styles = styles;
 
-  private get readonly() {
-    return this.view.readonly;
-  }
-
   private renderShortText() {
     return html`<affine-data-view-input
       .view="${this.view}"

@@ -1,10 +1,13 @@
 import type { EditorHost } from '@blocksuite/lit';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
-import { css, html } from 'lit';
+import { css } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 
+import type { DataViewAssigneeSelectManager } from '../../assigneeSelect/assigneeSelect-view-manager.js';
+import type { DataViewAttachmentManager } from '../../attachment/attachment-view-manager.js';
+import type { DataViewLongTextManager } from '../../longText/longText-view-manager.js';
+import type { DataViewShortTextManager } from '../../shortText/shortText-view-manager.js';
 import type { DetailSlotPropsForComponents } from './base.js';
-import type { DataViewShortTextManager } from './shortText/shortText-view-manager.js';
 
 @customElement('components-datasource-block-renderer')
 export class BlockRendererForComponents
@@ -41,7 +44,11 @@ export class BlockRendererForComponents
     }
   `;
   @property({ attribute: false })
-  public view!: DataViewShortTextManager;
+  public view!:
+    | DataViewShortTextManager
+    | DataViewLongTextManager
+    | DataViewAssigneeSelectManager
+    | DataViewAttachmentManager;
   @property({ attribute: false })
   public rowId!: string;
   root?: EditorHost;
@@ -75,23 +82,5 @@ export class BlockRendererForComponents
       },
       true
     );
-  }
-
-  renderIcon() {
-    const iconColumn = this.view.header.iconColumn;
-    if (!iconColumn) {
-      return;
-    }
-    return html` <div class="components-block-detail-header-icon">
-      ${this.view.cellGetValue(this.rowId, iconColumn)}
-    </div>`;
-  }
-
-  protected override render(): unknown {
-    const model = this.model;
-    if (!model) {
-      return;
-    }
-    return html` ${this.root?.renderModel(model)} ${this.renderIcon()} `;
   }
 }

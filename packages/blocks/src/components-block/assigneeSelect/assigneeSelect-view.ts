@@ -18,10 +18,6 @@ export class DataViewAssigneeSelect extends BaseDataViewForComponents<
 > {
   static override styles = styles;
 
-  private get readonly() {
-    return this.view.readonly;
-  }
-
   private renderAssigneeSelect() {
     return html`<affine-data-view-assigneeselect
       .view="${this.view}"

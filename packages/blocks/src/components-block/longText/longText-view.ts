@@ -17,10 +17,6 @@ export class DataViewLongText extends BaseDataViewForComponents<
 > {
   static override styles = styles;
 
-  private get readonly() {
-    return this.view.readonly;
-  }
-
   private renderLongText() {
     return html`<affine-data-view-textarea
       .view="${this.view}"

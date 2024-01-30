@@ -18,10 +18,6 @@ export class DataViewAttachment extends BaseDataViewForComponents<
 > {
   static override styles = styles;
 
-  private get readonly() {
-    return this.view.readonly;
-  }
-
   private renderAttachment() {
     return html`<affine-data-view-attachment
       .view="${this.view}"
