@@ -1,4 +1,3 @@
-import { __unstableSchemas, AffineSchemas } from '@blocksuite/blocks/models';
 import {
   type BlobStorage,
   type DocProviderCreator,
@@ -7,6 +6,7 @@ import {
   Workspace,
 } from '@blocksuite/store';
 import { createMemoryStorage, Generator, Schema } from '@blocksuite/store';
+import { __unstableSchemas, AffineSchemas } from '@vanillahill99/blocks/models';
 
 import { AffineEditorContainer } from '../../index.js';
 

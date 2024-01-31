@@ -1,4 +1,3 @@
-import type { TestUtils } from '@blocksuite/blocks';
 import type { EditorHost } from '@blocksuite/lit';
 import type { AffineEditorContainer } from '@blocksuite/presets';
 import type {
@@ -8,6 +7,7 @@ import type {
   Workspace,
 } from '@blocksuite/store';
 import type { Job } from '@blocksuite/store';
+import type { TestUtils } from '@vanillahill99/blocks';
 import type { z } from 'zod';
 
 declare global {

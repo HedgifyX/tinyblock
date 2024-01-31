@@ -1,15 +1,15 @@
-import type { ListType, ParagraphType } from '@blocksuite/blocks';
-import type { DatabaseService } from '@blocksuite/blocks';
-import { checkboxPureColumnConfig } from '@blocksuite/blocks';
-import { datePureColumnConfig } from '@blocksuite/blocks';
-import { linkPureColumnConfig } from '@blocksuite/blocks';
-import { multiSelectColumnConfig } from '@blocksuite/blocks';
-import { numberPureColumnConfig } from '@blocksuite/blocks';
-import { progressPureColumnConfig } from '@blocksuite/blocks';
-import { richTextPureColumnConfig } from '@blocksuite/blocks';
-import type { DatabaseBlockModel } from '@blocksuite/blocks/models';
 import { assertExists } from '@blocksuite/global/utils';
 import { Text, type Workspace } from '@blocksuite/store';
+import type { ListType, ParagraphType } from '@vanillahill99/blocks';
+import type { DatabaseService } from '@vanillahill99/blocks';
+import { checkboxPureColumnConfig } from '@vanillahill99/blocks';
+import { datePureColumnConfig } from '@vanillahill99/blocks';
+import { linkPureColumnConfig } from '@vanillahill99/blocks';
+import { multiSelectColumnConfig } from '@vanillahill99/blocks';
+import { numberPureColumnConfig } from '@vanillahill99/blocks';
+import { progressPureColumnConfig } from '@vanillahill99/blocks';
+import { richTextPureColumnConfig } from '@vanillahill99/blocks';
+import type { DatabaseBlockModel } from '@vanillahill99/blocks/models';
 
 import { type InitFn } from './utils';
 

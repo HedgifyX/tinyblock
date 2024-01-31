@@ -3,9 +3,9 @@ import '../fragments/page-meta-tags/page-meta-tags.js';
 import './doc-editor.js';
 import '../fragments/bi-directional-link/bi-directional-link-panel.js';
 
-import { DocEditorBlockSpecs } from '@blocksuite/blocks';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import { DocEditorBlockSpecs } from '@vanillahill99/blocks';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 

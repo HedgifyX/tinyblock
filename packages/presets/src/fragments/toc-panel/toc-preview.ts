@@ -1,3 +1,6 @@
+import { DisposableGroup, noop } from '@blocksuite/global/utils';
+import type { DeltaInsert } from '@blocksuite/inline';
+import { WithDisposable } from '@blocksuite/lit';
 import type {
   AffineTextAttributes,
   AttachmentBlockModel,
@@ -8,11 +11,8 @@ import type {
   ImageBlockModel,
   ListBlockModel,
   ParagraphBlockModel,
-} from '@blocksuite/blocks';
-import { BlocksUtils } from '@blocksuite/blocks';
-import { DisposableGroup, noop } from '@blocksuite/global/utils';
-import type { DeltaInsert } from '@blocksuite/inline';
-import { WithDisposable } from '@blocksuite/lit';
+} from '@vanillahill99/blocks';
+import { BlocksUtils } from '@vanillahill99/blocks';
 import { css, html, LitElement, nothing } from 'lit';
 import { property } from 'lit/decorators.js';
 

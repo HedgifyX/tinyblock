@@ -312,7 +312,7 @@ Furthermore, BlockSuite also supports defining the most commonly used type of cu
 
 ```ts
 import { BlockModel } from '@blocksuite/store';
-import { defineEmbedModel } from '@blocksuite/blocks';
+import { defineEmbedModel } from '@vanillahill99/blocks';
 
 // Define strongly typed block model
 export class EmbedGithubModel extends defineEmbedModel<{
@@ -324,7 +324,7 @@ export class EmbedGithubModel extends defineEmbedModel<{
 Then based on this model, a lit-based UI component for the block can be defined:
 
 ```ts
-import { EmbedBlockElement } from '@blocksuite/blocks';
+import { EmbedBlockElement } from '@vanillahill99/blocks';
 import type { EmbedGithubBlockModel } from './embed-github-model.js';
 import { html } from 'lit';
 import { customElement } from 'lit/decorators.js';
@@ -349,7 +349,7 @@ export class EmbedGithubBlock extends EmbedBlockElement<EmbedGithubModel> {
 As next step, we can further define the corresponding `BlockSpec`:
 
 ```ts
-import { createEmbedBlock } from '@blocksuite/blocks';
+import { createEmbedBlock } from '@vanillahill99/blocks';
 import { EmbedGithubBlockModel } from './embed-github-model.js';
 
 export const EmbedGithubBlockSpec = createEmbedBlock({
@@ -372,7 +372,7 @@ Finally, by inserting this `BlockSpec` into the `host.specs` array, you can expa
 
 ```ts
 // ...
-import { DocEditorBlockSpecs } from '@blocksuite/blocks';
+import { DocEditorBlockSpecs } from '@vanillahill99/blocks';
 import { EmbedGithubBlockSpec } from './embed-block-spec.js';
 
 const editor = new DocEditor();

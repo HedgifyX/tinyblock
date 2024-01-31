@@ -1,8 +1,8 @@
 import type {
   EdgelessPageBlockComponent,
   SurfaceBlockComponent,
-} from '@blocksuite/blocks';
-import type {} from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
+import type {} from '@vanillahill99/blocks';
 import { beforeEach, describe, expect, test } from 'vitest';
 
 import { wait } from '../utils/common.js';

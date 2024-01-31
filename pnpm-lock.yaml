@@ -296,7 +296,7 @@ importers:
 
   packages/docs:
     dependencies:
-      '@blocksuite/blocks':
+      '@vanillahill99/blocks':
         specifier: workspace:*
         version: link:../blocks
       '@blocksuite/presets':
@@ -371,7 +371,7 @@ importers:
 
   packages/playground:
     dependencies:
-      '@blocksuite/blocks':
+      '@vanillahill99/blocks':
         specifier: workspace:*
         version: link:../blocks
       '@blocksuite/global':
@@ -453,7 +453,7 @@ importers:
       '@blocksuite/block-std':
         specifier: workspace:*
         version: link:../block-std
-      '@blocksuite/blocks':
+      '@vanillahill99/blocks':
         specifier: workspace:*
         version: link:../blocks
       '@blocksuite/global':

@@ -1,4 +1,3 @@
-import type { AffineTextAttributes } from '@blocksuite/blocks';
 import { assertExists } from '@blocksuite/global/utils';
 import {
   type DeltaInsert,
@@ -6,6 +5,7 @@ import {
   ZERO_WIDTH_SPACE,
 } from '@blocksuite/inline';
 import { ShadowlessElement } from '@blocksuite/lit';
+import type { AffineTextAttributes } from '@vanillahill99/blocks';
 import katex from 'katex';
 import { css, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';

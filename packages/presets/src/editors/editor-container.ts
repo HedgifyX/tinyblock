@@ -1,14 +1,3 @@
-import type {
-  AbstractEditor,
-  DocPageBlockComponent,
-  EdgelessPageBlockComponent,
-  PageBlockModel,
-} from '@blocksuite/blocks';
-import {
-  DocEditorBlockSpecs,
-  EdgelessEditorBlockSpecs,
-  ThemeObserver,
-} from '@blocksuite/blocks';
 import { assertExists, noop, Slot } from '@blocksuite/global/utils';
 import {
   type EditorHost,
@@ -16,6 +5,17 @@ import {
   WithDisposable,
 } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import type {
+  AbstractEditor,
+  DocPageBlockComponent,
+  EdgelessPageBlockComponent,
+  PageBlockModel,
+} from '@vanillahill99/blocks';
+import {
+  DocEditorBlockSpecs,
+  EdgelessEditorBlockSpecs,
+  ThemeObserver,
+} from '@vanillahill99/blocks';
 import { html, nothing } from 'lit';
 import { customElement, property, query } from 'lit/decorators.js';
 import { keyed } from 'lit/directives/keyed.js';

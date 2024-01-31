@@ -1,7 +1,7 @@
 import {
   DocEditorBlockSpecs,
   EdgelessEditorBlockSpecs,
-} from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
 
 import { getCustomAttachmentSpecs } from './custom-attachment/custom-attachment.js';
 import { getLatexSpecs } from './latex/latex.js';

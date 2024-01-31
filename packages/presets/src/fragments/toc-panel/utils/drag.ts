@@ -1,5 +1,5 @@
-import { on, once } from '@blocksuite/blocks';
 import type { Page } from '@blocksuite/store';
+import { on, once } from '@vanillahill99/blocks';
 
 import { type TOCNoteCard } from '../toc-card.js';
 import type { TOCPanelBody } from '../toc-panel-body.js';

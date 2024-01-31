@@ -1,10 +1,9 @@
 /// <reference types="../starter/env" />
-import '@blocksuite/blocks';
+import '@vanillahill99/blocks';
 import '@blocksuite/presets';
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import '@blocksuite/presets/themes/affine.css';
 
-import { AffineSchemas } from '@blocksuite/blocks/models';
 import type { EditorHost } from '@blocksuite/lit';
 import {
   type DocProviderCreator,
@@ -13,6 +12,7 @@ import {
   Text,
   Workspace,
 } from '@blocksuite/store';
+import { AffineSchemas } from '@vanillahill99/blocks/models';
 
 import { LeftSidePanel } from '../starter/components/left-side-panel';
 import { PagesPanel } from '../starter/components/pages-panel';

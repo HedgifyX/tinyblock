@@ -1,8 +1,8 @@
-import type { SurfaceBlockComponent } from '@blocksuite/blocks';
-import { EdgelessEditorBlockSpecs } from '@blocksuite/blocks';
 import { noop } from '@blocksuite/global/utils';
 import { EditorHost, ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import type { SurfaceBlockComponent } from '@vanillahill99/blocks';
+import { EdgelessEditorBlockSpecs } from '@vanillahill99/blocks';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { createRef, type Ref, ref } from 'lit/directives/ref.js';

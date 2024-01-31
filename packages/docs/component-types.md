@@ -30,7 +30,7 @@ BlockSuite by default offers a host based on the [lit](https://lit.dev) framewor
 
 ```ts
 // Default BlockSuite editable blocks
-import { DocEditorBlockSpecs } from '@blocksuite/blocks';
+import { DocEditorBlockSpecs } from '@vanillahill99/blocks';
 // The container for mounting block UI components
 import { EditorHost } from '@blocksuite/lit';
 // The store for working with block tree

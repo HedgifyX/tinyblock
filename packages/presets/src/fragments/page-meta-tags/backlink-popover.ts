@@ -1,6 +1,6 @@
-import { DualLinkIcon16, scrollbarStyle } from '@blocksuite/blocks';
 import { WithDisposable } from '@blocksuite/lit';
 import { baseTheme } from '@toeverything/theme';
+import { DualLinkIcon16, scrollbarStyle } from '@vanillahill99/blocks';
 import { css, html, LitElement, unsafeCSS } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 

@@ -3,8 +3,8 @@ import type {
   ConnectorElement,
   ShapeElement,
   TextElement,
-} from '@blocksuite/blocks';
-import { type SurfaceBlockComponent } from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
+import { type SurfaceBlockComponent } from '@vanillahill99/blocks';
 import { beforeEach, describe, expect, test } from 'vitest';
 
 import { getSurface } from '../utils/edgeless.js';

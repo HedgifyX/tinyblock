@@ -2,7 +2,7 @@ import {
   AttachmentService,
   DocEditorBlockSpecs,
   EdgelessEditorBlockSpecs,
-} from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
 
 class CustomAttachmentService extends AttachmentService {
   override mounted(): void {

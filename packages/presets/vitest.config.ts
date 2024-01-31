@@ -6,7 +6,7 @@ export default defineConfig(_configEnv =>
   defineConfig({
     optimizeDeps: {
       force: true,
-      include: ['@blocksuite/blocks > buffer'],
+      include: ['@vanillahill99/blocks > buffer'],
     },
     test: {
       include: ['src/__tests__/**/*.spec.ts'],
@@ -25,10 +25,10 @@ export default defineConfig(_configEnv =>
         web: ['src/__tests__/**/*.spec.ts'],
       },
       alias: {
-        '@blocksuite/blocks': path.resolve(
+        '@vanillahill99/blocks': path.resolve(
           fileURLToPath(new URL('../blocks/src', import.meta.url))
         ),
-        '@blocksuite/blocks/*': path.resolve(
+        '@vanillahill99/blocks/*': path.resolve(
           fileURLToPath(new URL('../blocks/src/*', import.meta.url))
         ),
         '@blocksuite/global/*': path.resolve(

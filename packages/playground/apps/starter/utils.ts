@@ -1,5 +1,3 @@
-import * as blocks from '@blocksuite/blocks';
-import { __unstableSchemas, AffineSchemas } from '@blocksuite/blocks/models';
 import * as globalUtils from '@blocksuite/global/utils';
 import * as editor from '@blocksuite/presets';
 import { AffineEditorContainer } from '@blocksuite/presets';
@@ -23,6 +21,8 @@ import {
 import { createBroadcastChannelProvider } from '@blocksuite/store/providers/broadcast-channel';
 import type { IndexedDBProvider } from '@toeverything/y-indexeddb';
 import { createIndexedDBProvider } from '@toeverything/y-indexeddb';
+import * as blocks from '@vanillahill99/blocks';
+import { __unstableSchemas, AffineSchemas } from '@vanillahill99/blocks/models';
 
 const params = new URLSearchParams(location.search);
 const room = params.get('room') ?? Math.random().toString(16).slice(2, 8);

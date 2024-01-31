@@ -3,8 +3,8 @@ import './doc/doc.js';
 import './edgeless/edgeless.js';
 import './copilot-service';
 
-import { AffineFormatBarWidget } from '@blocksuite/blocks';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
+import { AffineFormatBarWidget } from '@vanillahill99/blocks';
 import { css, html, type TemplateResult } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

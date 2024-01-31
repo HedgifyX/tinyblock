@@ -1,13 +1,13 @@
+import { DisposableGroup, noop } from '@blocksuite/global/utils';
+import { WithDisposable } from '@blocksuite/lit';
+import type { BlockModel, Page } from '@blocksuite/store';
+import { baseTheme } from '@toeverything/theme';
 import {
   getThemeMode,
   type NoteBlockModel,
   on,
   once,
-} from '@blocksuite/blocks';
-import { DisposableGroup, noop } from '@blocksuite/global/utils';
-import { WithDisposable } from '@blocksuite/lit';
-import type { BlockModel, Page } from '@blocksuite/store';
-import { baseTheme } from '@toeverything/theme';
+} from '@vanillahill99/blocks';
 import {
   css,
   html,

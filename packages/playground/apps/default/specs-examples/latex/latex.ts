@@ -1,17 +1,17 @@
 import './latex-node.js';
 
 import {
+  KEYBOARD_ALLOW_DEFAULT,
+  KEYBOARD_PREVENT_DEFAULT,
+} from '@blocksuite/inline';
+import {
   DocEditorBlockSpecs,
   EdgelessEditorBlockSpecs,
   type InlineMarkdownMatch,
   type InlineSpecs,
   ListService,
   ParagraphService,
-} from '@blocksuite/blocks';
-import {
-  KEYBOARD_ALLOW_DEFAULT,
-  KEYBOARD_PREVENT_DEFAULT,
-} from '@blocksuite/inline';
+} from '@vanillahill99/blocks';
 import { html } from 'lit';
 import { z } from 'zod';
 

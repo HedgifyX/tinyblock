@@ -1,7 +1,7 @@
-import type { SurfaceService } from '@blocksuite/blocks';
-import { type EdgelessPageBlockComponent } from '@blocksuite/blocks';
 import type { EditorHost } from '@blocksuite/lit';
 import { WithDisposable } from '@blocksuite/lit';
+import type { SurfaceService } from '@vanillahill99/blocks';
+import { type EdgelessPageBlockComponent } from '@vanillahill99/blocks';
 import { css, html, LitElement, type PropertyValues } from 'lit';
 import { property, state } from 'lit/decorators.js';
 

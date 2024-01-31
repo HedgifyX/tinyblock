@@ -14,7 +14,7 @@
   "license": "MPL-2.0",
   "dependencies": {
     "@blocksuite/block-std": "workspace:*",
-    "@blocksuite/blocks": "workspace:*",
+    "@vanillahill99/blocks": "workspace:*",
     "@blocksuite/global": "workspace:*",
     "@blocksuite/inline": "workspace:*",
     "@blocksuite/lit": "workspace:*",

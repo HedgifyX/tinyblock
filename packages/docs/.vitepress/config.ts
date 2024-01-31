@@ -141,7 +141,10 @@ export default defineConfig({
             text: '@blocksuite/presets',
             link: '/api/@blocksuite/presets/index',
           },
-          { text: '@blocksuite/blocks', link: '/api/@blocksuite/blocks/index' },
+          {
+            text: '@vanillahill99/blocks',
+            link: '/api/@vanillahill99/blocks/index',
+          },
         ],
       },
       {

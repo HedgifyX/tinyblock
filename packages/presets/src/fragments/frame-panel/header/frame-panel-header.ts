@@ -1,14 +1,14 @@
 import './frames-setting-menu.js';
 
-import type {
-  EdgelessPageBlockComponent,
-  SurfaceService,
-} from '@blocksuite/blocks';
-import { type NavigatorMode } from '@blocksuite/blocks';
-import { createButtonPopper } from '@blocksuite/blocks';
 import { DisposableGroup } from '@blocksuite/global/utils';
 import type { EditorHost } from '@blocksuite/lit';
 import { WithDisposable } from '@blocksuite/lit';
+import type {
+  EdgelessPageBlockComponent,
+  SurfaceService,
+} from '@vanillahill99/blocks';
+import { type NavigatorMode } from '@vanillahill99/blocks';
+import { createButtonPopper } from '@vanillahill99/blocks';
 import { css, html, LitElement, type PropertyValues } from 'lit';
 import { property, query, state } from 'lit/decorators.js';
 

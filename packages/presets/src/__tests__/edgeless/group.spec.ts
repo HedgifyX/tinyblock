@@ -1,8 +1,8 @@
+import { Workspace } from '@blocksuite/store';
 import {
   CanvasElementType,
   type SurfaceBlockComponent,
-} from '@blocksuite/blocks';
-import { Workspace } from '@blocksuite/store';
+} from '@vanillahill99/blocks';
 import { beforeEach, describe, expect, test } from 'vitest';
 
 import { addElement, getSurface } from '../utils/edgeless.js';

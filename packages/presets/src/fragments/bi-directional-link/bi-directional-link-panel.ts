@@ -1,14 +1,14 @@
-import type { ListService } from '@blocksuite/blocks';
-import {
-  type AffineTextAttributes,
-  getAffineInlineSpecsWithReference,
-  ReferenceNodeConfig,
-} from '@blocksuite/blocks';
-import { BlocksUtils, InlineManager, RichText } from '@blocksuite/blocks';
 import { assertExists, noop } from '@blocksuite/global/utils';
 import type { DeltaInsert } from '@blocksuite/inline';
 import { WithDisposable } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import type { ListService } from '@vanillahill99/blocks';
+import {
+  type AffineTextAttributes,
+  getAffineInlineSpecsWithReference,
+  ReferenceNodeConfig,
+} from '@vanillahill99/blocks';
+import { BlocksUtils, InlineManager, RichText } from '@vanillahill99/blocks';
 import { css, html, LitElement, nothing, type TemplateResult } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

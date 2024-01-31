@@ -1,12 +1,5 @@
 import '../card/frame-card.js';
 
-import type { SurfaceService } from '@blocksuite/blocks';
-import {
-  Bound,
-  type EdgelessPageBlockComponent,
-  type FrameBlockModel,
-  generateKeyBetween,
-} from '@blocksuite/blocks';
 import { DisposableGroup } from '@blocksuite/global/utils';
 import {
   type EditorHost,
@@ -14,6 +7,13 @@ import {
   WithDisposable,
 } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import type { SurfaceService } from '@vanillahill99/blocks';
+import {
+  Bound,
+  type EdgelessPageBlockComponent,
+  type FrameBlockModel,
+  generateKeyBetween,
+} from '@vanillahill99/blocks';
 import { css, html, nothing, type PropertyValues } from 'lit';
 import { property, query, state } from 'lit/decorators.js';
 

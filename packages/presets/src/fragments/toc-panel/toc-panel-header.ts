@@ -1,7 +1,7 @@
 import './toc-setting-menu.js';
 
-import { createButtonPopper } from '@blocksuite/blocks';
 import { WithDisposable } from '@blocksuite/lit';
+import { createButtonPopper } from '@vanillahill99/blocks';
 import { css, html, LitElement } from 'lit';
 import { property, query, state } from 'lit/decorators.js';
 

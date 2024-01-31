@@ -1,12 +1,12 @@
-import type {
-  EdgelessPageBlockComponent,
-  NoteBlockModel,
-} from '@blocksuite/blocks';
-import { Bound } from '@blocksuite/blocks';
 import { DisposableGroup, noop } from '@blocksuite/global/utils';
 import type { EditorHost } from '@blocksuite/lit';
 import { WithDisposable } from '@blocksuite/lit';
 import { type Page } from '@blocksuite/store';
+import type {
+  EdgelessPageBlockComponent,
+  NoteBlockModel,
+} from '@vanillahill99/blocks';
+import { Bound } from '@vanillahill99/blocks';
 import { css, html, LitElement, nothing, type PropertyValues } from 'lit';
 import { property, query, state } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

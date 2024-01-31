@@ -1,15 +1,15 @@
 import './frame-card-title.js';
 
+import { DisposableGroup } from '@blocksuite/global/utils';
+import type { EditorHost } from '@blocksuite/lit';
+import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
+import type { Page } from '@blocksuite/store';
 import {
   type EdgelessPageBlockComponent,
   type FrameBlockModel,
   on,
   once,
-} from '@blocksuite/blocks';
-import { DisposableGroup } from '@blocksuite/global/utils';
-import type { EditorHost } from '@blocksuite/lit';
-import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
-import type { Page } from '@blocksuite/store';
+} from '@vanillahill99/blocks';
 import { css, html, nothing, type PropertyValues } from 'lit';
 import { property, query } from 'lit/decorators.js';
 import { styleMap } from 'lit/directives/style-map.js';

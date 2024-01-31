@@ -1,4 +1,4 @@
-import { AffineFormatBarWidget } from '@blocksuite/blocks';
+import { AffineFormatBarWidget } from '@vanillahill99/blocks';
 
 export function extendFormatBar() {
   AffineFormatBarWidget.registerCustomElement({

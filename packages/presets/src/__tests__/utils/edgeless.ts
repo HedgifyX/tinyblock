@@ -1,10 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+import type { Page } from '@blocksuite/store';
 import type {
   DocPageBlockComponent,
   EdgelessPageBlockComponent,
   SurfaceBlockComponent,
-} from '@blocksuite/blocks';
-import type { Page } from '@blocksuite/store';
+} from '@vanillahill99/blocks';
 
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import type { AffineEditorContainer } from '../../index.js';

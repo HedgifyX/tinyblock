@@ -1,7 +1,7 @@
-import { DocEditorBlockSpecs } from '@blocksuite/blocks';
 import { noop } from '@blocksuite/global/utils';
 import { EditorHost, ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import { DocEditorBlockSpecs } from '@vanillahill99/blocks';
 import { html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { createRef, type Ref, ref } from 'lit/directives/ref.js';

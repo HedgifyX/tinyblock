@@ -72,10 +72,10 @@ export default ({ mode }) => {
     },
     resolve: {
       alias: {
-        '@blocksuite/blocks': path.resolve(
+        '@vanillahill99/blocks': path.resolve(
           fileURLToPath(new URL('../blocks/src', import.meta.url))
         ),
-        '@blocksuite/blocks/*': path.resolve(
+        '@vanillahill99/blocks/*': path.resolve(
           fileURLToPath(new URL('../blocks/src/*', import.meta.url))
         ),
         '@blocksuite/global/*': path.resolve(

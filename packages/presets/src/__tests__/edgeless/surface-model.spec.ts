@@ -3,7 +3,7 @@ import type {
   GroupElementModel,
   ShapeElementModel,
   SurfaceBlockModel,
-} from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 
 import { wait } from '../utils/common.js';

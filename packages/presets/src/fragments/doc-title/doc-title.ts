@@ -1,8 +1,8 @@
-import type { RichText } from '@blocksuite/blocks';
-import { type PageBlockModel } from '@blocksuite/blocks';
 import { assertExists } from '@blocksuite/global/utils';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import type { Page } from '@blocksuite/store';
+import type { RichText } from '@vanillahill99/blocks';
+import { type PageBlockModel } from '@vanillahill99/blocks';
 import { css, html } from 'lit';
 import { customElement, property, query, state } from 'lit/decorators.js';
 

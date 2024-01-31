@@ -1,5 +1,5 @@
-import { MarkdownTransformer } from '@blocksuite/blocks';
 import { Text, type Workspace } from '@blocksuite/store';
+import { MarkdownTransformer } from '@vanillahill99/blocks';
 
 import { type InitFn } from './utils';
 

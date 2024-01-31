@@ -53,7 +53,7 @@ Sometimes you may want to set some runtime configurations for some blocks to bet
 For example, you may want to set an image proxy middleware URL for the image block. By default the image block will use AFFiNE's image proxy to bypass CORS restrictions. In the self-hosted case, you may want to set your own image proxy middleware URL concerning that the default one will not be available:
 
 ```ts
-import type { ImageService } from '@blocksuite/blocks';
+import type { ImageService } from '@vanillahill99/blocks';
 
 const editorRoot = document.querySelector('editor-host');
 if (!editorRoot) return;
@@ -64,4 +64,4 @@ const imageService = editorRoot.spec.getService('affine:image') as ImageService;
 imageService.setImageProxyMiddlewareURL('https://example.com/image-proxy');
 ```
 
-For different blocks, the method to set runtime configurations may be different. You can check the [block API document](/api/@blocksuite/blocks/index) to find out the methods you need.
+For different blocks, the method to set runtime configurations may be different. You can check the [block API document](/api/@vanillahill99/blocks/index) to find out the methods you need.

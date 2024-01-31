@@ -1,5 +1,5 @@
-import { FrameBlockModel } from '@blocksuite/blocks';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
+import { FrameBlockModel } from '@vanillahill99/blocks';
 import { css, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 

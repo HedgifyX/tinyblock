@@ -1,19 +1,19 @@
+import { assertExists } from '@blocksuite/global/utils';
+import { WithDisposable } from '@blocksuite/lit';
+import type { Page } from '@blocksuite/store';
+import { baseTheme } from '@toeverything/theme';
 import {
   LinkedPageIcon,
   PageIcon,
   popTagSelect,
   type SelectTag,
-} from '@blocksuite/blocks';
+} from '@vanillahill99/blocks';
 import {
   ArrowDownSmallIcon,
   DualLinkIcon16,
   PlusIcon,
   TagsIcon,
-} from '@blocksuite/blocks';
-import { assertExists } from '@blocksuite/global/utils';
-import { WithDisposable } from '@blocksuite/lit';
-import type { Page } from '@blocksuite/store';
-import { baseTheme } from '@toeverything/theme';
+} from '@vanillahill99/blocks';
 import { css, html, LitElement, nothing, unsafeCSS } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

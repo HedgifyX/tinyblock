@@ -1,7 +1,7 @@
-import { type FrameBlockModel } from '@blocksuite/blocks';
 import { DisposableGroup } from '@blocksuite/global/utils';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import type { Y } from '@blocksuite/store';
+import { type FrameBlockModel } from '@vanillahill99/blocks';
 import { css, html, type PropertyValues } from 'lit';
 import { property, query } from 'lit/decorators.js';
 

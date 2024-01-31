@@ -1,5 +1,5 @@
-import type { AffineTextAttributes } from '@blocksuite/blocks';
 import type { PageMeta } from '@blocksuite/store';
+import type { AffineTextAttributes } from '@vanillahill99/blocks';
 import type { TemplateResult } from 'lit';
 
 export const PAGE_BLOCK_CHILD_PADDING = 24;

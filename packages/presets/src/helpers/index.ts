@@ -1,5 +1,5 @@
-import { AffineSchemas } from '@blocksuite/blocks/models';
 import { Schema, Workspace } from '@blocksuite/store';
+import { AffineSchemas } from '@vanillahill99/blocks/models';
 
 export function createEmptyPage() {
   const schema = new Schema().register(AffineSchemas);

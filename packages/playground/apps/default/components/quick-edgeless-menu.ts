@@ -16,6 +16,10 @@ import '@shoelace-style/shoelace/dist/components/alert/alert.js';
 import '@shoelace-style/shoelace/dist/themes/light.css';
 import '@shoelace-style/shoelace/dist/themes/dark.css';
 
+import { ShadowlessElement } from '@blocksuite/lit';
+import type { AffineEditorContainer } from '@blocksuite/presets';
+import { Utils, type Workspace } from '@blocksuite/store';
+import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
 import {
   ColorVariables,
   extractCssVariables,
@@ -23,11 +27,7 @@ import {
   MarkdownTransformer,
   type PageService,
   ZipTransformer,
-} from '@blocksuite/blocks';
-import { ShadowlessElement } from '@blocksuite/lit';
-import type { AffineEditorContainer } from '@blocksuite/presets';
-import { Utils, type Workspace } from '@blocksuite/store';
-import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
+} from '@vanillahill99/blocks';
 import { css, html, nothing } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 

@@ -17,19 +17,6 @@ import '@shoelace-style/shoelace/dist/themes/dark.css';
 import './left-side-panel';
 import './side-panel';
 
-import type { PageService, TreeNode } from '@blocksuite/blocks';
-import {
-  BlocksUtils,
-  ColorVariables,
-  extractCssVariables,
-  FontFamilyVariables,
-  HtmlTransformer,
-  MarkdownTransformer,
-  SizeVariables,
-  StyleVariables,
-  type SurfaceBlockComponent,
-  ZipTransformer,
-} from '@blocksuite/blocks';
 import { assertExists } from '@blocksuite/global/utils';
 import {
   type BlockElement,
@@ -41,6 +28,19 @@ import type { BlockModel } from '@blocksuite/store';
 import { Utils, type Workspace } from '@blocksuite/store';
 import type { SlDropdown } from '@shoelace-style/shoelace';
 import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
+import type { PageService, TreeNode } from '@vanillahill99/blocks';
+import {
+  BlocksUtils,
+  ColorVariables,
+  extractCssVariables,
+  FontFamilyVariables,
+  HtmlTransformer,
+  MarkdownTransformer,
+  SizeVariables,
+  StyleVariables,
+  type SurfaceBlockComponent,
+  ZipTransformer,
+} from '@vanillahill99/blocks';
 import { css, html } from 'lit';
 import { customElement, property, query, state } from 'lit/decorators.js';
 import * as lz from 'lz-string';

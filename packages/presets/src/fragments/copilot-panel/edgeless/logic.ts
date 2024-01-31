@@ -1,11 +1,11 @@
+import type { Workspace } from '@blocksuite/store';
 import {
   BlocksUtils,
   EmbedHtmlBlockSpec,
   EmbedHtmlModel,
   FrameBlockModel,
   type ImageBlockProps,
-} from '@blocksuite/blocks';
-import type { Workspace } from '@blocksuite/store';
+} from '@vanillahill99/blocks';
 
 import type { AffineEditorContainer } from '../../../editors/index.js';
 import { copilotConfig } from '../copilot-service/copilot-config.js';

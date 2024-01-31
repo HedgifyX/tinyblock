@@ -35,7 +35,7 @@ const page = workspace.createPage();
 As an example, the `createEmptyPage` is a simple helper implemented exactly in this way ([source](https://github.com/toeverything/blocksuite/blob/master/packages/presets/src/helpers/index.ts)):
 
 ```ts
-import { AffineSchemas } from '@blocksuite/blocks/models';
+import { AffineSchemas } from '@vanillahill99/blocks/models';
 import { Schema, Workspace } from '@blocksuite/store';
 
 export function createEmptyPage() {

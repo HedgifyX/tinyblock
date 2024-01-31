@@ -1,11 +1,11 @@
+import type { EditorHost } from '@blocksuite/lit';
+import type { Page } from '@blocksuite/store';
 import {
   type EdgelessPageBlockComponent,
   type FrameBlockModel,
   on,
   once,
-} from '@blocksuite/blocks';
-import type { EditorHost } from '@blocksuite/lit';
-import type { Page } from '@blocksuite/store';
+} from '@vanillahill99/blocks';
 
 import type { FramePanelBody } from '../body/frame-panel-body.js';
 import { FrameCard } from '../card/frame-card.js';

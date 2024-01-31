@@ -1,8 +1,8 @@
-import type { FrameBlockModel, ImageBlockModel } from '@blocksuite/blocks';
-import { BlocksUtils, type SurfaceBlockComponent } from '@blocksuite/blocks';
 import { assertExists } from '@blocksuite/global/utils';
 import type { BlockElement, EditorHost } from '@blocksuite/lit';
 import { type BlockModel, Slice } from '@blocksuite/store';
+import type { FrameBlockModel, ImageBlockModel } from '@vanillahill99/blocks';
+import { BlocksUtils, type SurfaceBlockComponent } from '@vanillahill99/blocks';
 
 import { getMarkdownFromSlice } from './markdown-utils.js';
 

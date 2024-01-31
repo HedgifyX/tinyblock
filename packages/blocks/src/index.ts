@@ -131,13 +131,13 @@ const importIdentifier = '__ $BLOCKSUITE_BLOCKS$ __';
 if (env[importIdentifier] === true) {
   // https://github.com/yjs/yjs/issues/438
   console.error(
-    '@blocksuite/blocks was already imported. This breaks constructor checks and will lead to issues!'
+    '@vanillahill99/blocks was already imported. This breaks constructor checks and will lead to issues!'
   );
 }
 
 if (typeof window === 'undefined') {
   throw new Error(
-    'Seems like you are importing @blocksuite/blocks in SSR mode. Which is not supported for now.'
+    'Seems like you are importing @vanillahill99/blocks in SSR mode. Which is not supported for now.'
   );
 }
 

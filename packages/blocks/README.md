@@ -1,4 +1,4 @@
-# `@blocksuite/blocks`
+# `@vanillahill99/blocks`
 
 Default BlockSuite editable blocks. Used in [AFFiNE](https://affine.pro/).
 

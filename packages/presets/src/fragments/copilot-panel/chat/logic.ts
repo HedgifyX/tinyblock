@@ -1,5 +1,5 @@
-import { MarkdownAdapter } from '@blocksuite/blocks';
 import { Job, type Page } from '@blocksuite/store';
+import { MarkdownAdapter } from '@vanillahill99/blocks';
 
 import type { AffineEditorContainer } from '../../../editors/index.js';
 import { copilotConfig } from '../copilot-service/copilot-config.js';

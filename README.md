@@ -67,8 +67,8 @@ The BlockSuite project is structured around key packages that are categorized in
     <th colspan="2">Prebuilt Components</th>
   </tr>
   <tr>
-    <td><code>@blocksuite/blocks</code></td>
-    <td>Default block implementations for composing preset editors, including widgets belonging to each block.</td>
+    <td><code>@vanillahill99/blocks</code></td>
+    <td>Default block implementations for composing preset editors, including widgets belonging to each block from @blocksuite - and added more extension</td>
   </tr>
   <tr>
     <td><code>@blocksuite/presets</code></td>

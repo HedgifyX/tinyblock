@@ -113,4 +113,4 @@ You will see there is a `v-text` in the template, it is a custom element that re
 
 ## Rich Text Component
 
-If you find the `InlineEditor` features may be limited or a bit verbose to use, you can refer to or directly use the [rich-text](https://github.com/toeverything/blocksuite/blob/f71df00ce18e3f300caad914aaedf63267158885/packages/blocks/src/components/rich-text/rich-text.ts) encapsulated in the `@blocksuite/blocks` package. It contains basic editing features like copy/cut/paste, undo/redo (including range restore).
+If you find the `InlineEditor` features may be limited or a bit verbose to use, you can refer to or directly use the [rich-text](https://github.com/toeverything/blocksuite/blob/f71df00ce18e3f300caad914aaedf63267158885/packages/blocks/src/components/rich-text/rich-text.ts) encapsulated in the `@vanillahill99/blocks` package. It contains basic editing features like copy/cut/paste, undo/redo (including range restore).

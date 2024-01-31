@@ -1,10 +1,10 @@
 import './header/frame-panel-header.js';
 import './body/frame-panel-body.js';
 
-import { FramePreview } from '@blocksuite/blocks';
 import { DisposableGroup } from '@blocksuite/global/utils';
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
 import { baseTheme } from '@toeverything/theme';
+import { FramePreview } from '@vanillahill99/blocks';
 import { css, html, type PropertyValues, unsafeCSS } from 'lit';
 import { property } from 'lit/decorators.js';
 
