@@ -3,7 +3,7 @@
   "version": "0.11.0",
   "description": "Default BlockSuite editable blocks.",
   "type": "module",
-  "repository": "toeverything/blocksuite",
+  "repository": "HedgifyX/tinyblock",
   "scripts": {
     "build": "tsc",
     "test:unit": "vitest --run",
@@ -12,7 +12,7 @@
     "test": "pnpm test:unit && pnpm test:e2e"
   },
   "keywords": [],
-  "author": "toeverything",
+  "author": "toeverything/vanillahill99",
   "license": "MPL-2.0",
   "dependencies": {
     "@blocksuite/block-std": "workspace:*",
