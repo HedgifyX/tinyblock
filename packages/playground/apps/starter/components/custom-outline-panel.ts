@@ -43,7 +43,9 @@ export class CustomOutlinePanel extends WithDisposable(LitElement) {
 
     registerTOCPanelComponents(components => {
       Object.entries(components).forEach(([name, component]) => {
-        customElements.define(name, component);
+        if (!customElements.get(name)) {
+          customElements.define(name, component);
+        }
       });
     });
   }
