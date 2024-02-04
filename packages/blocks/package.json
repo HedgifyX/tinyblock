@@ -1,6 +1,6 @@
 {
   "name": "@vanillahill99/blocks",
-  "version": "0.11.1",
+  "version": "0.11.0",
   "description": "Default BlockSuite editable blocks.",
   "type": "module",
   "repository": "HedgifyX/tinyblock",
