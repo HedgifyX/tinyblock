@@ -3,7 +3,7 @@
   "version": "0.11.2",
   "description": "Prebuilt BlockSuite editors and opt-in additional UI components.",
   "type": "module",
-  "repository": "toeverything/blocksuite",
+  "repository": "HedgifyX/tinyblock",
   "scripts": {
     "build": "tsc --build --verbose",
     "test": "vitest --browser.headless --run",
