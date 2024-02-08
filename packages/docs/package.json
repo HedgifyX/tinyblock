@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@vanillahill99/blocks": "workspace:*",
-    "@blocksuite/presets": "workspace:*",
+    "@vanillahill99/presets": "workspace:*",
     "@blocksuite/store": "workspace:*",
     "markdown-it-container": "^4.0.0",
     "vitepress-plugin-sandpack": "^1.1.4"

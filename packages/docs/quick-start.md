@@ -1,10 +1,10 @@
 # Quick Start
 
-The `@blocksuite/presets` package contains the prebuilt editors and opt-in additional UI components. Its `nightly` versions are released daily based on the master branch, which is also recommended for real world usage. You may also need to install `@blocksuite/store` explicitly for working with BlockSuite documents:
+The `@vanillahill99/presets` package contains the prebuilt editors and opt-in additional UI components. Its `nightly` versions are released daily based on the master branch, which is also recommended for real world usage. You may also need to install `@blocksuite/store` explicitly for working with BlockSuite documents:
 
 ```sh
 pnpm install \
-  @blocksuite/presets@nightly \
+  @vanillahill99/presets@nightly \
   @blocksuite/store@nightly
 ```
 
@@ -13,9 +13,9 @@ Then you can use the prebuilt `DocEditor` out of the box, with an initialized `p
 ::: code-sandbox {coderHeight=420 previewHeight=300}
 
 ```ts /index.ts [active]
-import '@blocksuite/presets/themes/affine.css';
+import '@vanillahill99/presets/themes/affine.css';
 
-import { createEmptyPage, DocEditor } from '@blocksuite/presets';
+import { createEmptyPage, DocEditor } from '@vanillahill99/presets';
 import { Text } from '@blocksuite/store';
 
 (async () => {

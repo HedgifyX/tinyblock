@@ -132,7 +132,7 @@ Embracing the document-centric philosophy, we created the [BlockSuite](https://g
 In BlockSuite, documents are modeled as `page` objects. Each page holds a tree of blocks. Some editor presets can be used upon connecting to a page as following:
 
 ```ts
-import { createEmptyPage, DocEditor } from '@blocksuite/presets';
+import { createEmptyPage, DocEditor } from '@vanillahill99/presets';
 
 // Initialize a `page` document
 const page = createEmptyPage().init();

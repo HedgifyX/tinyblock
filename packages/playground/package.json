@@ -16,7 +16,7 @@
     "@blocksuite/global": "workspace:*",
     "@blocksuite/inline": "workspace:*",
     "@blocksuite/lit": "workspace:*",
-    "@blocksuite/presets": "workspace:*",
+    "@vanillahill99/presets": "workspace:*",
     "@blocksuite/store": "workspace:*",
     "@shoelace-style/shoelace": "2.12.0",
     "@toeverything/y-indexeddb": "0.10.0-canary.9",

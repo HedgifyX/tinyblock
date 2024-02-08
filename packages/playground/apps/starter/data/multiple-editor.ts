@@ -1,5 +1,5 @@
-import { AffineEditorContainer } from '@blocksuite/presets';
 import { Text, type Workspace } from '@blocksuite/store';
+import { AffineEditorContainer } from '@vanillahill99/presets';
 
 import { createEditor } from '../utils';
 import { type InitFn } from './utils';

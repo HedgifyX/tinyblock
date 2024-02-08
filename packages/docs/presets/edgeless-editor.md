@@ -7,7 +7,7 @@ The comprehensive API surface of this preset is still a work in progress. Please
 This editor preset is great at whiteboard graphics editing capabilites. It combines canvas-based graphics rendering and DOM-based block tree editing together. This facilitates both creative graphic design and structured document editing, catering to a wide range of user needs and workflows.
 
 ```ts
-import { EdgelessEditor } from '@blocksuite/presets';
+import { EdgelessEditor } from '@vanillahill99/presets';
 ```
 
 <iframe src="https://try-blocksuite.vercel.app/starter/?init&mode=edgeless" width="100%" height="500"></iframe>

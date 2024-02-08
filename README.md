@@ -15,7 +15,7 @@
 [![Checks Status](https://img.shields.io/github/checks-status/toeverything/blocksuite/master)](https://github.com/toeverything/blocksuite/actions?query=branch%3Amaster)
 [![Issues Closed](https://img.shields.io/github/issues-closed/toeverything/blocksuite?color=6880ff)](https://github.com/toeverything/blocksuite/issues?q=is%3Aissue+is%3Aclosed)
 [![NPM Latest Release](https://img.shields.io/npm/v/@blocksuite/store.svg?maxAge=300&color=6880ff)](./packages/store/package.json)
-[![NPM Nightly Release](https://img.shields.io/npm/v/@blocksuite/presets/nightly?color=6880ff)](https://github.com/toeverything/blocksuite/actions/workflows/nightly-release.yml?query=branch%3Amaster)
+[![NPM Nightly Release](https://img.shields.io/npm/v/@vanillahill99/presets/nightly?color=6880ff)](https://github.com/toeverything/blocksuite/actions/workflows/nightly-release.yml?query=branch%3Amaster)
 [![Open in StackBlitz](https://img.shields.io/badge/open%20in-StackBlitz-black)](https://stackblitz.com/github/toeverything/blocksuite)
 [![Join Discord](https://img.shields.io/discord/959027316334407691)](https://discord.gg/9vwSWmYYcZ)
 
@@ -71,7 +71,7 @@ The BlockSuite project is structured around key packages that are categorized in
     <td>Default block implementations for composing preset editors, including widgets belonging to each block from @blocksuite - and added more extension</td>
   </tr>
   <tr>
-    <td><code>@blocksuite/presets</code></td>
+    <td><code>@vanillahill99/presets</code></td>
     <td>Plug-and-play editable components including <i>editors</i> (<code>DocEditor</code> / <code>EdgelessEditor</code>) and auxiliary UI components named <i>fragments</i> (<code>CopilotPanel</code>, <code>DocTitle</code>...).</td>
   </tr>
 </table>
@@ -91,7 +91,7 @@ In addition to extending custom blocks, here are what you can also conveniently 
 
 ## Getting Started
 
-To try out BlockSuite, refer to the [Quick Start](https://blocksuite.io/quick-start.html) document and start with the preset editors in `@blocksuite/presets`.
+To try out BlockSuite, refer to the [Quick Start](https://blocksuite.io/quick-start.html) document and start with the preset editors in `@vanillahill99/presets`.
 
 ## Resources
 

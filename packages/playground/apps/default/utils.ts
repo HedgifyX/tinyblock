@@ -1,4 +1,3 @@
-import { AffineEditorContainer } from '@blocksuite/presets';
 import type { BlobStorage, Page, Workspace } from '@blocksuite/store';
 import {
   createIndexeddbStorage,
@@ -7,6 +6,7 @@ import {
   type WorkspaceOptions,
 } from '@blocksuite/store';
 import { __unstableSchemas, AffineSchemas } from '@vanillahill99/blocks/models';
+import { AffineEditorContainer } from '@vanillahill99/presets';
 
 import { INDEXED_DB_NAME } from './providers/indexeddb-provider.js';
 import { getExampleSpecs } from './specs-examples/index.js';

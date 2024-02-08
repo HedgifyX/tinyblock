@@ -2,7 +2,7 @@ import { WithDisposable } from '@blocksuite/lit';
 import {
   type AffineEditorContainer,
   registerTOCPanelComponents,
-} from '@blocksuite/presets';
+} from '@vanillahill99/presets';
 import { css, html, LitElement } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 

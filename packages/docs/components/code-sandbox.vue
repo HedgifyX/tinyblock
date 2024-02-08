@@ -16,7 +16,7 @@
       deps: {
         yjs: 'latest',
         '@toeverything/theme': 'latest',
-        '@blocksuite/presets': 'nightly',
+        '@vanillahill99/presets': 'nightly',
       },
     }"
     :code-options="codeOptions"

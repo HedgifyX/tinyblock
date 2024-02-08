@@ -1,6 +1,6 @@
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
-import type { AffineEditorContainer } from '@blocksuite/presets';
-import { registerFramePanelComponents } from '@blocksuite/presets';
+import type { AffineEditorContainer } from '@vanillahill99/presets';
+import { registerFramePanelComponents } from '@vanillahill99/presets';
 import { css, html, nothing } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 

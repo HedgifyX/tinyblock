@@ -40,7 +40,7 @@ page.updateBlock(modelA, { type: 'h1' });
 page.deleteBlock(modelA);
 ```
 
-This example creates a subset of the block tree hierarchy defaultly used in `@blocksuite/presets`, illustrated as follows:
+This example creates a subset of the block tree hierarchy defaultly used in `@vanillahill99/presets`, illustrated as follows:
 
 ![block-nesting](./images/block-nesting.png)
 

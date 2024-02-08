@@ -1,7 +1,7 @@
 import { ShadowlessElement, WithDisposable } from '@blocksuite/lit';
-import type { AffineEditorContainer } from '@blocksuite/presets';
 import type { Workspace } from '@blocksuite/store';
 import { CloseIcon, createDefaultPage } from '@vanillahill99/blocks';
+import type { AffineEditorContainer } from '@vanillahill99/presets';
 import { css, html } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { repeat } from 'lit/directives/repeat.js';

@@ -23,7 +23,6 @@ import {
   type EditorHost,
   ShadowlessElement,
 } from '@blocksuite/lit';
-import type { AffineEditorContainer, CopilotPanel } from '@blocksuite/presets';
 import type { BlockModel } from '@blocksuite/store';
 import { Utils, type Workspace } from '@blocksuite/store';
 import type { SlDropdown } from '@shoelace-style/shoelace';
@@ -41,6 +40,10 @@ import {
   type SurfaceBlockComponent,
   ZipTransformer,
 } from '@vanillahill99/blocks';
+import type {
+  AffineEditorContainer,
+  CopilotPanel,
+} from '@vanillahill99/presets';
 import { css, html } from 'lit';
 import { customElement, property, query, state } from 'lit/decorators.js';
 import * as lz from 'lz-string';

@@ -1,6 +1,4 @@
 import * as globalUtils from '@blocksuite/global/utils';
-import * as editor from '@blocksuite/presets';
-import { AffineEditorContainer } from '@blocksuite/presets';
 import type {
   BlobStorage,
   DocProviderCreator,
@@ -23,6 +21,8 @@ import type { IndexedDBProvider } from '@toeverything/y-indexeddb';
 import { createIndexedDBProvider } from '@toeverything/y-indexeddb';
 import * as blocks from '@vanillahill99/blocks';
 import { __unstableSchemas, AffineSchemas } from '@vanillahill99/blocks/models';
+import * as editor from '@vanillahill99/presets';
+import { AffineEditorContainer } from '@vanillahill99/presets';
 
 const params = new URLSearchParams(location.search);
 const room = params.get('room') ?? Math.random().toString(16).slice(2, 8);

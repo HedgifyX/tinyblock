@@ -1,11 +1,11 @@
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
-import '@blocksuite/presets/themes/affine.css';
+import '@vanillahill99/presets/themes/affine.css';
 
 import {
   createEmptyPage,
   DocEditor,
   EdgelessEditor,
-} from '@blocksuite/presets';
+} from '@vanillahill99/presets';
 
 const container = document.createElement('div');
 container.style.display = 'flex';

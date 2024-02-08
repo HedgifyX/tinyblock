@@ -299,7 +299,7 @@ importers:
       '@vanillahill99/blocks':
         specifier: workspace:*
         version: link:../blocks
-      '@blocksuite/presets':
+      '@vanillahill99/presets':
         specifier: workspace:*
         version: link:../presets
       '@blocksuite/store':
@@ -383,7 +383,7 @@ importers:
       '@blocksuite/lit':
         specifier: workspace:*
         version: link:../lit
-      '@blocksuite/presets':
+      '@vanillahill99/presets':
         specifier: workspace:*
         version: link:../presets
       '@blocksuite/store':

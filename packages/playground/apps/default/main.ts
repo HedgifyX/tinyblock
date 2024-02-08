@@ -1,8 +1,8 @@
 /// <reference types="../starter/env" />
 import '@vanillahill99/blocks';
-import '@blocksuite/presets';
+import '@vanillahill99/presets';
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
-import '@blocksuite/presets/themes/affine.css';
+import '@vanillahill99/presets/themes/affine.css';
 
 import type { EditorHost } from '@blocksuite/lit';
 import {

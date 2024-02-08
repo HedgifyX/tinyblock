@@ -1,16 +1,16 @@
 /// <reference types="./env.d.ts" />
 import '@vanillahill99/blocks';
-import '@blocksuite/presets';
+import '@vanillahill99/presets';
 import './components/start-panel';
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
-import '@blocksuite/presets/themes/affine.css';
+import '@vanillahill99/presets/themes/affine.css';
 
 import type { EditorHost } from '@blocksuite/lit';
-import { CopilotPanel } from '@blocksuite/presets';
 import type { DocProvider, Page } from '@blocksuite/store';
 import { Job, Workspace } from '@blocksuite/store';
 import { TestUtils } from '@vanillahill99/blocks';
 import { AffineSchemas } from '@vanillahill99/blocks/models';
+import { CopilotPanel } from '@vanillahill99/presets';
 
 import { CustomFramePanel } from './components/custom-frame-panel';
 import { CustomOutlinePanel } from './components/custom-outline-panel.js';

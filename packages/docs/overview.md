@@ -48,7 +48,7 @@ The BlockSuite project is structured around key packages that are categorized in
     <td>Default block implementations for composing preset editors, including widgets belonging to each block.</td>
   </tr>
   <tr>
-    <td><code>@blocksuite/presets</code></td>
+    <td><code>@vanillahill99/presets</code></td>
     <td>Plug-and-play editable components including <i>editors</i> (<code>DocEditor</code> / <code>EdgelessEditor</code>) and auxiliary UI components named <i>fragments</i> (<code>CopilotPanel</code>, <code>DocTitle</code>...).</td>
   </tr>
 </table>
@@ -64,6 +64,6 @@ In addition to extending custom blocks, here are what you can also conveniently 
 - Incremental updates, real-time collaboration, local-first state management, and even decentralized data synchronization based on the [document streaming](./data-synchronization#document-streaming) mechanism.
 - State scheduling across multiple documents and reusing one document in multiple editors.
 
-To try out BlockSuite, refer to the [Quick Start](./quick-start) document and start with the preset editors in `@blocksuite/presets`.
+To try out BlockSuite, refer to the [Quick Start](./quick-start) document and start with the preset editors in `@vanillahill99/presets`.
 
 > 🚧 BlockSuite is currently in its early stage, with some extension capabilities still under refinement. Hope you can stay tuned, try it out, or share your feedback!

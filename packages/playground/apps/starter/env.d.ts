@@ -1,5 +1,4 @@
 import type { EditorHost } from '@blocksuite/lit';
-import type { AffineEditorContainer } from '@blocksuite/presets';
 import type {
   BlockSchema,
   DocProvider,
@@ -8,6 +7,7 @@ import type {
 } from '@blocksuite/store';
 import type { Job } from '@blocksuite/store';
 import type { TestUtils } from '@vanillahill99/blocks';
+import type { AffineEditorContainer } from '@vanillahill99/presets';
 import type { z } from 'zod';
 
 declare global {

@@ -138,8 +138,8 @@ export default defineConfig({
           { text: '@blocksuite/lit', link: '/api/@blocksuite/lit/index' },
           { text: '@blocksuite/inline', link: '/api/@blocksuite/inline/index' },
           {
-            text: '@blocksuite/presets',
-            link: '/api/@blocksuite/presets/index',
+            text: '@vanillahill99/presets',
+            link: '/api/@vanillahill99/presets/index',
           },
           {
             text: '@vanillahill99/blocks',

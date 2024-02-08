@@ -17,7 +17,6 @@ import '@shoelace-style/shoelace/dist/themes/light.css';
 import '@shoelace-style/shoelace/dist/themes/dark.css';
 
 import { ShadowlessElement } from '@blocksuite/lit';
-import type { AffineEditorContainer } from '@blocksuite/presets';
 import { Utils, type Workspace } from '@blocksuite/store';
 import { setBasePath } from '@shoelace-style/shoelace/dist/utilities/base-path.js';
 import {
@@ -28,6 +27,7 @@ import {
   type PageService,
   ZipTransformer,
 } from '@vanillahill99/blocks';
+import type { AffineEditorContainer } from '@vanillahill99/presets';
 import { css, html, nothing } from 'lit';
 import { customElement, property, state } from 'lit/decorators.js';
 

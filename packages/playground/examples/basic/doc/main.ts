@@ -1,8 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
-import '@blocksuite/presets/themes/affine.css';
+import '@vanillahill99/presets/themes/affine.css';
 
-import { createEmptyPage, DocEditor } from '@blocksuite/presets';
 import { Text } from '@blocksuite/store';
+import { createEmptyPage, DocEditor } from '@vanillahill99/presets';
 
 const page = await createEmptyPage().init();
 const editor = new DocEditor();
